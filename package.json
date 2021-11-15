@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
+    "android": "react-native run-android NODE_OPTIONS=--openssl-legacy-provider",
     "ios": "react-native run-ios",
-    "start": "react-native start",
+    "start": "react-native start NODE_OPTIONS=--openssl-legacy-provider",
     "test": "jest",
     "lint": "eslint ."
   },
